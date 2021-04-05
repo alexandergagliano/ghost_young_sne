@@ -8,4 +8,9 @@ A quick wrapper to find the host galaxies of young SN candidates using the astro
 ```bash
 pip install astro_ghost
 ```
-3.  Run the code youngSNe_ghost.py at the command line, passing in the path to the csv file (that you got from the SQL Explorer Script). 
+3. Run the command 
+```bash
+python youngSNe_ghost.py <csv>
+```
+
+at the command line, passing in the path to the csv file (that you got from the SQL Explorer Script). 
